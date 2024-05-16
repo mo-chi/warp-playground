@@ -1,0 +1,11 @@
+[package]
+name = "warp_playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3.7"
+tokio = { version = "1.37.0", features = ["full"] }
+serde = { version = "1.0.201", features = ["derive"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
